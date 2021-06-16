@@ -10,7 +10,8 @@ async function main() {
 
   var usuarios = new Table(dadosProcessados);
 
-  console.log(usuarios.rows);
+  console.log(usuarios.RowCount);
+  console.log(usuarios.ColumnCount);
 
 }
 
